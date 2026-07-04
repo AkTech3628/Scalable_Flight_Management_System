@@ -39,4 +39,15 @@ AviationStack API
 ## Caching Strategy
 TheGET /api/flights endpoint uses Redis to cache frequently requested flight data. On the first request, data is fetched from MongoDB and stored in Redis. Subsequent requests are served directly from the cache. Whenever a flight is created or updated, the cache is cleared to ensure fresh data is returned on the next request.• Implemented Redis caching for flight listing APIs, reducing repeated MongoDB queries and improving response time for cached requests.
 
+## Environment Variables
+
+Create a `.env` file in the project root using `.env.example` as a reference.
+
+```env
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+AVIATION_API_KEY=your_aviationstack_api_key
+REDIS_HOST=localhost
+REDIS_PORT=6379
 
