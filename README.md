@@ -27,23 +27,10 @@ bcrypt
 AviationStack API
 
 ## Project Structure
-Flight_management_System/
-│
-├── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── app.js
-│
-├── server.js
-├── package.json
-├── .env
-└── README.md
+<img width="237" height="381" alt="image" src="https://github.com/user-attachments/assets/eb00f829-9eae-4647-810a-8e7a85026ce6" />
 
-## Future 
+
+## Future Imporvements
 
 - Pagination and filtering for flight listings
 - Rate limiting using Redis
