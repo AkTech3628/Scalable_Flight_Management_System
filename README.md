@@ -16,14 +16,14 @@ Centralized error handling
 Environment-based configuration using .env
 
 ## Tech Stack
-Node.js
-Express.js
-MongoDB
-Mongoose
-Redis
-Docker
-JWT
-bcrypt
+Node.js,
+Express.js,
+MongoDB,
+Mongoose,
+Redis,
+Docker,
+JWT,
+bcrypt,
 AviationStack API
 
 ## Project Structure
