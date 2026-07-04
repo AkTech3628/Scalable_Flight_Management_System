@@ -53,10 +53,13 @@ After Redis (Cache Hit)
 
 <img width="1420" height="406" alt="Screenshot 2026-07-04 111445" src="https://github.com/user-attachments/assets/bf7b86ef-9cf0-4a8c-8aaa-089659e98ba1" />
 
+
 Using your measured values:
 
 Without Redis: 32 ms
+
 With Redis: 11 ms
+
 Reduced repeated API response time by approximately 66% using Redis caching, lowering average response time from 32 ms to 11 ms for cached requests.
 
 ## Environment Variables
